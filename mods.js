@@ -354,7 +354,6 @@ modClasses = [
     class Mod_EnableTXEverywhere extends FirmwareMod {
         constructor() {
             super("Enable TX everywhere", "DANGER! Allows transmitting on all frequencies. Only use this mod for testing, do not transmit on illegal frequencies!", 0);
-            this.hidden = true;
         }
 
         apply(firmwareData) {
